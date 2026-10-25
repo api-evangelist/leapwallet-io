@@ -1,25 +1,73 @@
 aid: leapwallet-io
+
 name: Leap
-description: 'Leap is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by accel) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Leap is a fintech company developing a digital wallet platform that enables users to store, manage, and transact with multiple cryptocurrencies and fiat currencies. The service offers secure key management, seamless cross-chain transfers, and integration with various DeFi protocols, aiming to provide a unified experience for both retail and institutional users. Leap focuses on user-friendly design, regulatory compliance, and advanced security features such as multi-factor authentication and hardware wallet support.'
+
 url: https://raw.githubusercontent.com/api-evangelist/leapwallet-io/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
-- Company
-apis: []
+- Fintech
+- Cryptocurrency
+- Digital Wallet
+- DeFi
+- Security
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- accel
+
 common:
+- type: Vendors
+  url: vendors/leapwallet-io-vendors.yml
+- type: LLMsTxt
+  url: llms/leapwallet-io-llms.txt
+- type: WellKnown
+  url: well-known/leapwallet-io-well-known.yml
+- type: Hosts
+  url: hosts/leapwallet-io-hosts.yml
+- type: SDKs
+  url: packages/leapwallet-io-packages.yml
+- type: Packages
+  url: packages/leapwallet-io-packages.yml
+- type: Documentation
+  url: https://developers.leapwallet.io/
+- type: DomainSecurity
+  url: security/leapwallet-io-domain-security.yml
 - type: Website
   url: https://www.leapwallet.io/
+
+apis: []
+
+x-backed-by:
+- accel
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation is served via GitBook with markdown negotiation and no machine‑readable OpenAPI spec found.
+  evidence:
+    - url: https://docs.leapwallet.io/introduction/
+      status: 200
+  checked: '2026-10-25'
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

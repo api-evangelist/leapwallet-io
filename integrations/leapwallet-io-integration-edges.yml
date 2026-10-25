@@ -1,0 +1,22 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/leapwallet-io/integrations
+- https://zapier.com/apps/leapwallet/integrations
+- https://zapier.com/apps/leap/integrations
+- https://n8n.io/integrations/leapwallet-io/
+- https://n8n.io/integrations/leapwallet/
+- https://composio.dev/toolkits/leapwallet-io
+- https://monid.ai/tools/leapwallet-io
+checked:
+- https://composio.dev/toolkits/leapwallet-io
+- https://monid.ai/tools/leapwallet-io
+- https://n8n.io/integrations/leapwallet-io/
+- https://n8n.io/integrations/leapwallet/
+- https://zapier.com/apps/leap/integrations
+- https://zapier.com/apps/leapwallet-io/integrations
+- https://zapier.com/apps/leapwallet/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
